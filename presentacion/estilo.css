@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.titulo {
+	padding: 40px;
+}
+
+nav ul {
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	list-style-type: none;
+	background-color: #c91212;
+	
+}	
+
+nav li {
+	display: inline-flex;
+}
+
+nav a {
+	padding: 20px;
+	width: 150px;
+	color: white;
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+.contenido .articulo {
+	width: 70%;
+	margin: auto;
+}
+.contenido .articulo div {
+	width: 90%;
+	padding: 15px;
+	background-color: #f5f5f5;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.contenido .articulo img {
+	width: 200px;
+	border-radius: 15px;
+}
+.contenido .secundario {
+	width: 30%;
+}
+.contenido .secundario p {
+	background-color: #000000;
+	border-radius: 15px;
+	padding: 20px;
+	height: 700px;
+	color: white;
+}
+.articulo div,
+        .secundario {
+            filter: blur(5px); 
+            transition: filter 0.5s ease; 
+        }
+
+        .articulo div:hover,
+        .secundario:hover {
+            filter: none; /* Elimina desenfique*/
+        }
+
+        /* Estilo para la imagn */
+        .imagen {
+            width: 100%;
+            max-width: 600px; 
+            display: block;
+            margin: 0 auto;
+            cursor: pointer; 
+        }
+.piedepagina {
+	background-color: #0a476b;
+	margin-top: 100px;
+}
+.piedepagina p {
+	padding: 100px;
+}
